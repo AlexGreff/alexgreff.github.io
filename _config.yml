@@ -31,7 +31,7 @@ github_username:  AlexGreff
 
 # Build settings
 #theme: minima
-theme: minimal-mistakes-jekyll
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
 
