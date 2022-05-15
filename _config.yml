@@ -17,7 +17,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-
+locale: "en-US"
 title: A blog of my IT ramblings, and nerdy home projects
 email: 
 description: # >- this means to ignore newlines until "baseurl:"
@@ -31,6 +31,8 @@ author:
   avatar   : "/assets/images/bio-photo.jpg"
   bio      : "I work in IT and I also like to nerd out in my free time. This blog is currently just a test."
   location : "Minnesota, USA"
+logo: "/assets/images/logo-370x376.png"
+search: true   
 
 # Build settings
 #theme: minima
@@ -57,11 +59,6 @@ defaults:
       type: pages
     values:
       layout: single
-header:
-  image: /assets/images/header-1205x712.png
-search: true   
-logo: "/assets/images/logo-370x376.png"
-locale: "en-US"
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
